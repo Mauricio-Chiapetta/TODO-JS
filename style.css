@@ -1,19 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    max-height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
 }
 
-.simpleHeader{
-    display: flex; 
-    background-color: aqua;
-    height: 12vh;
-     width: 100%;
+.todoApp {
+  width: 70vh;
+  height: 60vh;
+  padding: 10px;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 127, 244, 0.418);
+  margin: 0 auto;
 }
