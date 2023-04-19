@@ -66,6 +66,10 @@ input:focus-visible {
   cursor: pointer;
 }
 
+.addTask:focus{
+  background-color: rgb(241, 218, 4);
+}
+
 @media (max-width: 375px) {
   .todoApp {
     margin: 5px;
