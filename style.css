@@ -42,3 +42,32 @@ body {
   height: 50px;
   text-align: center;
 }
+
+input {
+  color: #000;
+  padding: 10px;
+  background-color: #ffffffe7;
+  border: none;
+  border-radius: 5px;
+}
+input:focus-visible {
+  outline: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+.addTask {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 230, 0);
+}
+
+.addTask:hover {
+  background-color: rgb(250, 239, 145);
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .todoApp {
+    margin: 5px;
+  }
+}
