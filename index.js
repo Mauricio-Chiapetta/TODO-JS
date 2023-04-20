@@ -27,3 +27,4 @@ function addTask(task) {
   taskList.appendChild(listItem);
   todoApp.appendChild(taskList);
 }
+// fazer algum jeito de não ter mais de 9 'li'
