@@ -27,5 +27,3 @@ function addTask(task) {
   taskList.appendChild(listItem);
   todoApp.appendChild(taskList);
 }
-
-
