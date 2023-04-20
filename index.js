@@ -22,9 +22,10 @@ function addTask(task) {
     listItem.remove();
   });
   
+  
+
   listItem.innerHTML = task;
   listItem.appendChild(deleteButton);
   taskList.appendChild(listItem);
   todoApp.appendChild(taskList);
 }
-// fazer algum jeito de não ter mais de 9 'li'
