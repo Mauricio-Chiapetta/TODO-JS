@@ -56,6 +56,7 @@ input {
   border: none;
   border-radius: 5px;
   width: 80%;
+  font-size: 15px;
 }
 input:focus-visible {
   outline: 1px solid rgba(0, 0, 0, 0.479);
